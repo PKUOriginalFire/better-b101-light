@@ -1,0 +1,778 @@
+{
+    "title":  "B101 · 46 台灯",
+    "server":  {
+                   "port":  8801
+               },
+    "ma2":  {
+                "host":  "127.0.0.1",
+                "port":  30000,
+                "user":  "administrator",
+                "password":  "admin",
+                "paceMs":  16
+            },
+    "attributes":  {
+                       "r":  "COLORRGB1",
+                       "g":  "COLORRGB2",
+                       "b":  "COLORRGB3",
+                       "w":  "COLORRGB5"
+                   },
+    "cue":  {
+                "executor":  "1.1",
+                "label":  "B101"
+            },
+    "groups":  [
+                   {
+                       "id":  1,
+                       "name":  "Facelight L",
+                       "fixtures":  [
+                                        7,
+                                        8,
+                                        9,
+                                        10
+                                    ]
+                   },
+                   {
+                       "id":  2,
+                       "name":  "Facelight R",
+                       "fixtures":  [
+                                        11,
+                                        12,
+                                        13,
+                                        14
+                                    ]
+                   },
+                   {
+                       "id":  3,
+                       "name":  "Crosslight L",
+                       "fixtures":  [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6
+                                    ]
+                   },
+                   {
+                       "id":  4,
+                       "name":  "Crosslight R",
+                       "fixtures":  [
+                                        15,
+                                        16,
+                                        17,
+                                        18,
+                                        19,
+                                        20
+                                    ]
+                   },
+                   {
+                       "id":  5,
+                       "name":  "Toplight Front",
+                       "fixtures":  [
+                                        21,
+                                        22,
+                                        23,
+                                        24,
+                                        25,
+                                        26,
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32,
+                                        33
+                                    ]
+                   },
+                   {
+                       "id":  6,
+                       "name":  "Toplight Rear",
+                       "fixtures":  [
+                                        34,
+                                        35,
+                                        36,
+                                        37,
+                                        38,
+                                        39,
+                                        40,
+                                        41,
+                                        42,
+                                        43,
+                                        44,
+                                        45,
+                                        46
+                                    ]
+                   },
+                   {
+                       "id":  8,
+                       "name":  "Facelight",
+                       "fixtures":  [
+                                        7,
+                                        8,
+                                        9,
+                                        10,
+                                        11,
+                                        12,
+                                        13,
+                                        14
+                                    ]
+                   },
+                   {
+                       "id":  9,
+                       "name":  "Crosslight",
+                       "fixtures":  [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        15,
+                                        16,
+                                        17,
+                                        18,
+                                        19,
+                                        20
+                                    ]
+                   },
+                   {
+                       "id":  10,
+                       "name":  "Toplight",
+                       "fixtures":  [
+                                        34,
+                                        35,
+                                        36,
+                                        37,
+                                        38,
+                                        39,
+                                        40,
+                                        41,
+                                        42,
+                                        43,
+                                        44,
+                                        45,
+                                        46,
+                                        21,
+                                        22,
+                                        23,
+                                        24,
+                                        25,
+                                        26,
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32,
+                                        33
+                                    ]
+                   },
+                   {
+                       "id":  11,
+                       "name":  "All",
+                       "fixtures":  [
+                                        7,
+                                        8,
+                                        9,
+                                        10,
+                                        11,
+                                        12,
+                                        13,
+                                        14,
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        15,
+                                        16,
+                                        17,
+                                        18,
+                                        19,
+                                        20,
+                                        21,
+                                        22,
+                                        23,
+                                        24,
+                                        25,
+                                        26,
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32,
+                                        33,
+                                        34,
+                                        35,
+                                        36,
+                                        37,
+                                        38,
+                                        39,
+                                        40,
+                                        41,
+                                        42,
+                                        43,
+                                        44,
+                                        45,
+                                        46
+                                    ]
+                   },
+                   {
+                       "id":  14,
+                       "name":  "All",
+                       "fixtures":  [
+                                        7,
+                                        8,
+                                        9,
+                                        10,
+                                        11,
+                                        12,
+                                        13,
+                                        14,
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        15,
+                                        16,
+                                        17,
+                                        18,
+                                        19,
+                                        20,
+                                        21,
+                                        22,
+                                        23,
+                                        24,
+                                        25,
+                                        26,
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32,
+                                        33,
+                                        34,
+                                        35,
+                                        36,
+                                        37,
+                                        38,
+                                        39,
+                                        40,
+                                        41,
+                                        42,
+                                        43,
+                                        44,
+                                        45,
+                                        46
+                                    ]
+                   }
+               ],
+    "fixtures":  [
+                     {
+                         "id":  1,
+                         "name":  "Left Wing 1",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  513,
+                         "model":  "rgbw",
+                         "x":  -14,
+                         "y":  -5.25,
+                         "z":  6
+                     },
+                     {
+                         "id":  2,
+                         "name":  "Left Wing 2",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  521,
+                         "model":  "rgbw",
+                         "x":  -13.2,
+                         "y":  -5.85,
+                         "z":  6
+                     },
+                     {
+                         "id":  3,
+                         "name":  "Left Wing 3",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  529,
+                         "model":  "rgbw",
+                         "x":  -12.4,
+                         "y":  -6.45,
+                         "z":  6
+                     },
+                     {
+                         "id":  4,
+                         "name":  "Left Wing 4",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  537,
+                         "model":  "rgbw",
+                         "x":  -11.6,
+                         "y":  -7.05,
+                         "z":  6
+                     },
+                     {
+                         "id":  5,
+                         "name":  "Left Wing 5",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  545,
+                         "model":  "rgbw",
+                         "x":  -10.8,
+                         "y":  -7.65,
+                         "z":  6
+                     },
+                     {
+                         "id":  6,
+                         "name":  "Left Wing 6",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  553,
+                         "model":  "rgbw",
+                         "x":  -10,
+                         "y":  -8.25,
+                         "z":  6
+                     },
+                     {
+                         "id":  7,
+                         "name":  "Front 1",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  561,
+                         "model":  "vario",
+                         "x":  -8,
+                         "y":  -12,
+                         "z":  6
+                     },
+                     {
+                         "id":  8,
+                         "name":  "Front 2",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  569,
+                         "model":  "vario",
+                         "x":  -5.71,
+                         "y":  -13,
+                         "z":  6
+                     },
+                     {
+                         "id":  9,
+                         "name":  "Front 3",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  577,
+                         "model":  "vario",
+                         "x":  -3.43,
+                         "y":  -14,
+                         "z":  6
+                     },
+                     {
+                         "id":  10,
+                         "name":  "Front 4",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  585,
+                         "model":  "vario",
+                         "x":  -1.14,
+                         "y":  -15,
+                         "z":  6
+                     },
+                     {
+                         "id":  11,
+                         "name":  "Front 5",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  593,
+                         "model":  "vario",
+                         "x":  1.14,
+                         "y":  -15,
+                         "z":  6
+                     },
+                     {
+                         "id":  12,
+                         "name":  "Front 6",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  601,
+                         "model":  "vario",
+                         "x":  3.43,
+                         "y":  -14,
+                         "z":  6
+                     },
+                     {
+                         "id":  13,
+                         "name":  "Front 7",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  609,
+                         "model":  "vario",
+                         "x":  5.71,
+                         "y":  -13,
+                         "z":  6
+                     },
+                     {
+                         "id":  14,
+                         "name":  "Front 8",
+                         "type":  "4 Vario-Temp LED Par",
+                         "addr":  617,
+                         "model":  "vario",
+                         "x":  8,
+                         "y":  -12,
+                         "z":  6
+                     },
+                     {
+                         "id":  15,
+                         "name":  "Right Wing 1",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  625,
+                         "model":  "rgbw",
+                         "x":  10,
+                         "y":  -8.25,
+                         "z":  6
+                     },
+                     {
+                         "id":  16,
+                         "name":  "Right Wing 2",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  633,
+                         "model":  "rgbw",
+                         "x":  10.8,
+                         "y":  -7.65,
+                         "z":  6
+                     },
+                     {
+                         "id":  17,
+                         "name":  "Right Wing 3",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  641,
+                         "model":  "rgbw",
+                         "x":  11.6,
+                         "y":  -7.05,
+                         "z":  6
+                     },
+                     {
+                         "id":  18,
+                         "name":  "Right Wing 4",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  649,
+                         "model":  "rgbw",
+                         "x":  12.4,
+                         "y":  -6.45,
+                         "z":  6
+                     },
+                     {
+                         "id":  19,
+                         "name":  "Right Wing 5",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  657,
+                         "model":  "rgbw",
+                         "x":  13.2,
+                         "y":  -5.85,
+                         "z":  6
+                     },
+                     {
+                         "id":  20,
+                         "name":  "Right Wing 6",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  665,
+                         "model":  "rgbw",
+                         "x":  14,
+                         "y":  -5.25,
+                         "z":  6
+                     },
+                     {
+                         "id":  21,
+                         "name":  "Main A - 1",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  673,
+                         "model":  "rgbw",
+                         "x":  -12,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  22,
+                         "name":  "Main A - 2",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  681,
+                         "model":  "rgbw",
+                         "x":  -10,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  23,
+                         "name":  "Main A - 3",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  689,
+                         "model":  "rgbw",
+                         "x":  -8,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  24,
+                         "name":  "Main A - 4",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  697,
+                         "model":  "rgbw",
+                         "x":  -6,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  25,
+                         "name":  "Main A - 5",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  705,
+                         "model":  "rgbw",
+                         "x":  -4,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  26,
+                         "name":  "Main A - 6",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  713,
+                         "model":  "rgbw",
+                         "x":  -2,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  27,
+                         "name":  "Main A - 7",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  721,
+                         "model":  "rgbw",
+                         "x":  0,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  28,
+                         "name":  "Main A - 8",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  729,
+                         "model":  "rgbw",
+                         "x":  2,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  29,
+                         "name":  "Main A - 9",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  737,
+                         "model":  "rgbw",
+                         "x":  4,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  30,
+                         "name":  "Main A - 10",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  745,
+                         "model":  "rgbw",
+                         "x":  6,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  31,
+                         "name":  "Main A - 11",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  753,
+                         "model":  "rgbw",
+                         "x":  8,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  32,
+                         "name":  "Main A - 12",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  761,
+                         "model":  "rgbw",
+                         "x":  10,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  33,
+                         "name":  "Main A - 13",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  769,
+                         "model":  "rgbw",
+                         "x":  12,
+                         "y":  -2,
+                         "z":  6
+                     },
+                     {
+                         "id":  34,
+                         "name":  "Main B - 1",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  777,
+                         "model":  "rgbw",
+                         "x":  -12,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  35,
+                         "name":  "Main B - 2",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  785,
+                         "model":  "rgbw",
+                         "x":  -10,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  36,
+                         "name":  "Main B - 3",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  793,
+                         "model":  "rgbw",
+                         "x":  -8,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  37,
+                         "name":  "Main B - 4",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  801,
+                         "model":  "rgbw",
+                         "x":  -6,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  38,
+                         "name":  "Main B - 5",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  809,
+                         "model":  "rgbw",
+                         "x":  -4,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  39,
+                         "name":  "Main B - 6",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  817,
+                         "model":  "rgbw",
+                         "x":  -2,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  40,
+                         "name":  "Main B - 7",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  825,
+                         "model":  "rgbw",
+                         "x":  0,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  41,
+                         "name":  "Main B - 8",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  833,
+                         "model":  "rgbw",
+                         "x":  2,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  42,
+                         "name":  "Main B - 9",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  841,
+                         "model":  "rgbw",
+                         "x":  4,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  43,
+                         "name":  "Main B - 10",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  849,
+                         "model":  "rgbw",
+                         "x":  6,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  44,
+                         "name":  "Main B - 11",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  857,
+                         "model":  "rgbw",
+                         "x":  8,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  45,
+                         "name":  "Main B - 12",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  865,
+                         "model":  "rgbw",
+                         "x":  10,
+                         "y":  2,
+                         "z":  6
+                     },
+                     {
+                         "id":  46,
+                         "name":  "Main B - 13",
+                         "type":  "3 RGBW LED Par",
+                         "addr":  873,
+                         "model":  "rgbw",
+                         "x":  12,
+                         "y":  2,
+                         "z":  6
+                     }
+                 ],
+    "palette":  [
+                    {
+                        "name":  "red",
+                        "hex":  "#FF0000",
+                        "preset":  "4.1"
+                    },
+                    {
+                        "name":  "green",
+                        "hex":  "#00FF00",
+                        "preset":  "4.2"
+                    },
+                    {
+                        "name":  "blue",
+                        "hex":  "#0000FF",
+                        "preset":  "4.3"
+                    },
+                    {
+                        "name":  "cyan",
+                        "hex":  "#00FFFF",
+                        "preset":  "4.5"
+                    },
+                    {
+                        "name":  "magenta",
+                        "hex":  "#FF00E1",
+                        "preset":  "4.6"
+                    },
+                    {
+                        "name":  "White",
+                        "hex":  "#FFFFFF",
+                        "preset":  "4.15"
+                    },
+                    {
+                        "name":  "Exchange1#3",
+                        "hex":  "#29FA82",
+                        "preset":  "4.99"
+                    }
+                ],
+    "cues":  [
+
+             ],
+    "show":  "Re0"
+}
