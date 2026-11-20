@@ -1,0 +1,17 @@
+# 运行时产生的数据
+cues.json
+cues.*.json
+out.log
+err.log
+
+# 导出的归档
+exports/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/

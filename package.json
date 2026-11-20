@@ -1,0 +1,27 @@
+{
+  "name": "better-b101-light",
+  "version": "1.0.0",
+  "description": "A touch-friendly web console for grandMA2 onPC: fixtures, groups, colour, effects and cue lists over Telnet.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "grandma2",
+    "ma2",
+    "lighting",
+    "dmx",
+    "theatre",
+    "telnet"
+  ],
+  "author": "PKUOriginalFire",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PKUOriginalFire/better-b101-light.git"
+  },
+  "private": true
+}
